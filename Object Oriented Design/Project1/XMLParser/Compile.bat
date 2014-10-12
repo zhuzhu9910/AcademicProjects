@@ -1,0 +1,1 @@
+devenv XMLParser.sln /Rebuild debug

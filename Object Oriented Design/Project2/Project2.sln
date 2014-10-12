@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graphs", "Graphs\Graphs.vcproj", "{9EFC0BE9-B12C-49C4-84B2-3B4427F837AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vertex", "Vertex\Vertex.vcproj", "{8AF06AED-79DD-4598-9CA8-907F1B0E3A1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph", "Graph\Graph.vcproj", "{345CCC2E-8ECB-4975-9538-2983E2F1AB45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphFromXML", "GraphFromXML\GraphFromXML.vcproj", "{57C42F96-7F88-4AA2-BA22-EE355295DE2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileDependency", "FileDependency\FileDependency.vcproj", "{22E5FB16-0D9C-42EB-A874-1C742031C81A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileDependencyGraph", "FileDependencyGraph\FileDependencyGraph.vcproj", "{F6F3DF0E-9351-4ACE-AEA7-CEB9EAF12DCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphsExecutive", "GraphsExecutive\GraphsExecutive.vcproj", "{04BF3C0C-73E0-4CA6-8CBE-75FF2BC1A0A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFC0BE9-B12C-49C4-84B2-3B4427F837AB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9EFC0BE9-B12C-49C4-84B2-3B4427F837AB}.Debug|Win32.Build.0 = Debug|Win32
+		{9EFC0BE9-B12C-49C4-84B2-3B4427F837AB}.Release|Win32.ActiveCfg = Release|Win32
+		{9EFC0BE9-B12C-49C4-84B2-3B4427F837AB}.Release|Win32.Build.0 = Release|Win32
+		{8AF06AED-79DD-4598-9CA8-907F1B0E3A1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AF06AED-79DD-4598-9CA8-907F1B0E3A1B}.Debug|Win32.Build.0 = Debug|Win32
+		{8AF06AED-79DD-4598-9CA8-907F1B0E3A1B}.Release|Win32.ActiveCfg = Release|Win32
+		{8AF06AED-79DD-4598-9CA8-907F1B0E3A1B}.Release|Win32.Build.0 = Release|Win32
+		{345CCC2E-8ECB-4975-9538-2983E2F1AB45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{345CCC2E-8ECB-4975-9538-2983E2F1AB45}.Debug|Win32.Build.0 = Debug|Win32
+		{345CCC2E-8ECB-4975-9538-2983E2F1AB45}.Release|Win32.ActiveCfg = Release|Win32
+		{345CCC2E-8ECB-4975-9538-2983E2F1AB45}.Release|Win32.Build.0 = Release|Win32
+		{57C42F96-7F88-4AA2-BA22-EE355295DE2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57C42F96-7F88-4AA2-BA22-EE355295DE2D}.Debug|Win32.Build.0 = Debug|Win32
+		{57C42F96-7F88-4AA2-BA22-EE355295DE2D}.Release|Win32.ActiveCfg = Release|Win32
+		{57C42F96-7F88-4AA2-BA22-EE355295DE2D}.Release|Win32.Build.0 = Release|Win32
+		{22E5FB16-0D9C-42EB-A874-1C742031C81A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22E5FB16-0D9C-42EB-A874-1C742031C81A}.Debug|Win32.Build.0 = Debug|Win32
+		{22E5FB16-0D9C-42EB-A874-1C742031C81A}.Release|Win32.ActiveCfg = Release|Win32
+		{22E5FB16-0D9C-42EB-A874-1C742031C81A}.Release|Win32.Build.0 = Release|Win32
+		{F6F3DF0E-9351-4ACE-AEA7-CEB9EAF12DCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6F3DF0E-9351-4ACE-AEA7-CEB9EAF12DCC}.Debug|Win32.Build.0 = Debug|Win32
+		{F6F3DF0E-9351-4ACE-AEA7-CEB9EAF12DCC}.Release|Win32.ActiveCfg = Release|Win32
+		{F6F3DF0E-9351-4ACE-AEA7-CEB9EAF12DCC}.Release|Win32.Build.0 = Release|Win32
+		{04BF3C0C-73E0-4CA6-8CBE-75FF2BC1A0A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04BF3C0C-73E0-4CA6-8CBE-75FF2BC1A0A6}.Debug|Win32.Build.0 = Debug|Win32
+		{04BF3C0C-73E0-4CA6-8CBE-75FF2BC1A0A6}.Release|Win32.ActiveCfg = Release|Win32
+		{04BF3C0C-73E0-4CA6-8CBE-75FF2BC1A0A6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

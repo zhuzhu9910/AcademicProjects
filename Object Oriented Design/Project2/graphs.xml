@@ -1,0 +1,40 @@
+<? xml version=1.0 ?>
+  <graphs name="Project #2" author="Joe Code">
+  <!-- test application #1 -->
+    <graph name="g1" vt="string" et="string">
+        <v vtv="v1"><e etv="e1">4</e><e etv="e2">7</e></v>
+        <v vtv="v2"><e etv="e3">5</e><e etv="e4">7</e></v>
+        <v vtv="v3"><e etv="e5">1</e></v>
+        <v vtv="v4"></v>
+        <v vtv="v5"><e etv="e6">6</e><e etv="e7">7</e></v>
+        <v vtv="v6"><e etv="e8">2</e></v>
+        <v vtv="v7"><e etv="e9">3</e></v>
+     </graph>
+    <graph name="g2" vt="double" et="string">
+        <v vtv="1"><e etv="e1">4</e><e etv="e2">7</e></v>
+        <v vtv="2"><e etv="e3">5</e><e etv="e4">7</e></v>
+        <v vtv="3"><e etv="e5">1</e></v>
+        <v vtv="4"></v>
+        <v vtv="5"><e etv="e6">6</e><e etv="e7">7</e></v>
+        <v vtv="6"><e etv="e8">2</e></v>
+        <v vtv="7"><e etv="e9">3</e></v>
+     </graph>
+    <graph name="g3" vt="string" et="double">
+        <v vtv="v1"><e etv="1">4</e><e etv="2">7</e></v>
+        <v vtv="v2"><e etv="3">5</e><e etv="4">7</e></v>
+        <v vtv="v3"><e etv="5">1</e></v>
+        <v vtv="v4"></v>
+        <v vtv="v5"><e etv="6">6</e><e etv="7">7</e></v>
+        <v vtv="v6"><e etv="8">2</e></v>
+        <v vtv="v7"><e etv="9">3</e></v>
+     </graph>
+    <graph name="g4" vt="double" et="double">
+        <v vtv="1"><e etv="1">4</e><e etv="2">7</e></v>
+        <v vtv="2"><e etv="3">5</e><e etv="4">7</e></v>
+        <v vtv="3"><e etv="5">1</e></v>
+        <v vtv="4"></v>
+        <v vtv="5"><e etv="6">6</e><e etv="7">7</e></v>
+        <v vtv="6"><e etv="8">2</e></v>
+        <v vtv="7"><e etv="9">3</e></v>
+     </graph>
+  </graphs>
