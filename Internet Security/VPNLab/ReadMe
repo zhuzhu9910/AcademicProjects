@@ -1,0 +1,59 @@
+Readme of VPNLab
+Qinyun Zhu
+
+CONTENT:
+
+The directories are:
+VPNServer--the source code of the server. 
+VPNClientA--source code of the client.
+VPNClientB--content is exactly identical to that in the VPNClientA excepting the client certificate.
+
+In the VPNServer:
+File config_server--set up the tunnel networking interface, routing table and forward setting.
+File vpnauth--data file for the authenting purpose, which contains the authenticated clients' common name and one-way hash code of their password. A tool and its source code of adding records into this file is submitted in the PKI lab.
+File vpnserver.c--VPN server end program
+File utilities.c and vpnutilities.h--definition and implementation of the session management of the multiple clients, communication protocols between the client and server, crypto methods for encrypting/decrypting messages and one-way hash code generating.
+File datautilities.c and datautility.h--data structures and their functions for accessing the authenticating file.
+File servctl.c and servctl.h--manage the ssl control channel with the clients and initialize the connection,session key/iv generating, exchanging, updating.
+
+In the ClientX:
+File config_client--functionality is the same to the config_server but the routing configuration commands in is different to the server's.
+File vpnauth--the same to the server's but the password field is not used in the client end.
+File vpnclient.c--VPN client program.
+File utilities.c, vpnutilities.h, datautilities.c and datautility.h--the same to the server's.
+File clictl.c and clictl.h--manage the ssl control channel with the server and initialize the connection with the server, exchange session key/iv with server.
+
+OPERATIONS:
+
+VPN Server:
+./vpnserver -i [TUNNEL_NAME] -s -d
+
+-i (required): specify the virtual interface name
+-s (required): declare this is a server. It is meaningless. It exists only because I did not clean the old code of the simpletun very well. 
+-d (optional): turn on the debug output
+
+commands:
+quit--quit the program
+
+
+VPN Client:
+./vpnclient -i [TUNNEL_NAME] -c [SERVER_IP_ADDRESS] -d -v [CLIENT_VIRTUAL_IP] -n [CLIENT_SUBNET] -m [CLIENT_SUBNET_MASK]
+
+-i (required): specify the virtual interface name
+-c (required): specify the IP address of VPN Server
+-d (optional): turn on the debug output
+-v (required): client host virtual IP
+-n (optional): client's private subnet IP
+-m (optional): client's private subnet mask
+
+commands:
+start--start a connection with VPN server
+break--break the connection with VPN server
+quit--quit the program
+refreshkey--request a new session key from the server
+refreshiv--request a new session initial vector from the server
+setkey--set a new session key and inform the server to do the same change
+setiv--set a new initial vector and inform the server to do the same change
+
+
+
